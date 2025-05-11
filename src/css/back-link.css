@@ -5,8 +5,9 @@
   margin-top: 32px;
   border: 1px solid;
   border-radius: 8px;
+  max-width: 100px;
 }
-.back-link::before {
+/* .back-link::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -26,4 +27,4 @@
 .back-link:hover::before {
   opacity: 1;
   animation-play-state: running;
-}
+} */
